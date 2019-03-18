@@ -1,5 +1,6 @@
 <?php
-    // Composerでインストールしたライブラリを一括読み込み,k
+
+    // Composerでインストールしたライブラリを一括読み込み
     require_once __DIR__ . '/vendor/autoload.php';
 
     // アクセストークンを使いCurlHTTPClientをインスタンス化
