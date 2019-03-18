@@ -21,12 +21,4 @@
       $bot->replyText($event->getReplyToken(), 'TestMessage')
     }
 
-    /* ================================後で加える箇所================================
-        foreach ($events as $event) {
-        // メッセージを返信
-        $response = $bot->replyMessage(
-            $event->getReplyToken(), new \LINE\LINEBot\MessageBuilder\TextMessageBuilder($event->getText())  
-        );
-    }*/
-    //d6123080cce80b4a8de64ac94cc33e7cc2a58c4b
 ?>
