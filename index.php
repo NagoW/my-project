@@ -3,7 +3,7 @@
     require_once __DIR__ . '/vendor/autoload.php';
 
     // アクセストークンを使いCurlHTTPClientをインスタンス化
-    $httpClient = new \LINE\LINEBot\HTTPClient\CurlHTTPClient('Channel Access Token');
+    $httpClient = new \LINE\LINEBot\HTTPClient\CurlHTTPClient(getenv('zUrfkarxLzMaGePYD54G/rtrH8gas9zOJSrpiTVaRB8sk/Dvg7/qxYt0WTtKRR095ozOBgzi1/hGc8sXUVeyRopNTjt59ztl3xbWmHu5loy7VO7F80GLNsfiJit8vJN6TOAPqVdTqc2TQMTnr3QYMAdB04t89/1O/w1cDnyilFU='));
 
     //CurlHTTPClientとシークレットを使いLINEBotをインスタンス化
     $bot = new \LINE\LINEBot($httpClient, ['channelSecret' => 'Channel Secret']);
